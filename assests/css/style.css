@@ -101,7 +101,7 @@ header ul li:hover a {
 .banner form .searchForm input,
 .banner form .searchForm select {
   height: 35px;
-  width: 170px;
+  width: 160px;
 }
 .banner form .smt {
   height: 90px;
@@ -175,14 +175,14 @@ header ul li:hover a {
   /* overflow: hidden; */
 }
 .newsLatter form input {
-  padding: 10px 120px;
+  padding: 10px 100px;
   background-color: transparent;
   color: #fff;
   border: 2px solid #fff;
   margin-left: 30px;
 }
 .newsLatter form button {
-  padding: 10px 70px;
+  padding: 10px 60px;
   margin-left: 10px;
 }
 
@@ -379,4 +379,22 @@ header ul li:hover a {
   .row2 .second-list {
     margin-left: 150px;
   }
+}
+@media screen and (max-width: 1200px){
+  .header{
+    padding: 0 50px;
+  }
+  .header li{
+    font-size: 14px;
+  }
+  .banner form .searchForm input {
+    width: 105px;
+}
+
+.banner form .info select{
+  width:30px;
+}
+.banner form .smt{
+  margin-left:40px;
+}
 }
