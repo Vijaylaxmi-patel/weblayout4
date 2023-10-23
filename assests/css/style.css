@@ -422,7 +422,7 @@ header ul li:hover a {
   padding: 50px 100px;
 }
 .destination ul {
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 45% 45%;
   grid-template-rows: 400px 400px;
 }
 .estimate input{
@@ -634,12 +634,12 @@ header ul li{
   margin-bottom: 10px;
 }
 .banner form .info {
-  font-size: 12px;
+  font-size: 10px;
 }
 .banner form .searchForm select {
   width: 80px;
   height: 20px;
-  font-size: 12px;
+  font-size: 8px;
 }
 .fun h2{
   font-size: 20px;
@@ -652,6 +652,10 @@ header ul li{
 }
 .destination ul {
   grid-template-columns: 100%;
+  grid-template-rows: 500px 500px;
+}
+.destination ul li h3 {
+  font-size: 18px;
 }
 .blog-content .content {
   display: block;
