@@ -601,7 +601,7 @@ header ul li{
   font-size:10px;
 }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 480px){
 .banner h1 {
   font-size: 22px;
   padding: 50px 70px;
@@ -660,4 +660,11 @@ header ul li{
   height: 180px;
   width: 100%;
 }  
+.estimate select {
+  width: 140px; 
+}
+.fun ul li {
+  width: 240px;
+  height: 165px;
+}
 }
